@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67FDA91E1E110F5700E7E4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDA91D1E110F5700E7E4DB /* AppDelegate.swift */; };
+		67FDA9201E110F5700E7E4DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDA91F1E110F5700E7E4DB /* ViewController.swift */; };
+		67FDA9231E110F5700E7E4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FDA9211E110F5700E7E4DB /* Main.storyboard */; };
+		67FDA9261E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67FDA9241E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodeld */; };
+		67FDA9281E110F5700E7E4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FDA9271E110F5700E7E4DB /* Assets.xcassets */; };
+		67FDA92B1E110F5700E7E4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FDA9291E110F5700E7E4DB /* LaunchScreen.storyboard */; };
+		67FDA9361E110F5700E7E4DB /* Changing_Screen_with_seguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDA9351E110F5700E7E4DB /* Changing_Screen_with_seguesTests.swift */; };
+		67FDA9411E110F5700E7E4DB /* Changing_Screen_with_seguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDA9401E110F5700E7E4DB /* Changing_Screen_with_seguesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67FDA9321E110F5700E7E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FDA9121E110F5600E7E4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FDA9191E110F5600E7E4DB;
+			remoteInfo = "Changing Screen with segues";
+		};
+		67FDA93D1E110F5700E7E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FDA9121E110F5600E7E4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FDA9191E110F5600E7E4DB;
+			remoteInfo = "Changing Screen with segues";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67FDA91A1E110F5700E7E4DB /* Changing Screen with segues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Changing Screen with segues.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FDA91D1E110F5700E7E4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67FDA91F1E110F5700E7E4DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67FDA9221E110F5700E7E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67FDA9251E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Changing_Screen_with_segues.xcdatamodel; sourceTree = "<group>"; };
+		67FDA9271E110F5700E7E4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FDA92A1E110F5700E7E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67FDA92C1E110F5700E7E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FDA9311E110F5700E7E4DB /* Changing Screen with seguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Changing Screen with seguesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FDA9351E110F5700E7E4DB /* Changing_Screen_with_seguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changing_Screen_with_seguesTests.swift; sourceTree = "<group>"; };
+		67FDA9371E110F5700E7E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FDA93C1E110F5700E7E4DB /* Changing Screen with seguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Changing Screen with seguesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FDA9401E110F5700E7E4DB /* Changing_Screen_with_seguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changing_Screen_with_seguesUITests.swift; sourceTree = "<group>"; };
+		67FDA9421E110F5700E7E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FDA9171E110F5600E7E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA92E1E110F5700E7E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA9391E110F5700E7E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67FDA9111E110F5600E7E4DB = {
+			isa = PBXGroup;
+			children = (
+				67FDA91C1E110F5700E7E4DB /* Changing Screen with segues */,
+				67FDA9341E110F5700E7E4DB /* Changing Screen with seguesTests */,
+				67FDA93F1E110F5700E7E4DB /* Changing Screen with seguesUITests */,
+				67FDA91B1E110F5700E7E4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67FDA91B1E110F5700E7E4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FDA91A1E110F5700E7E4DB /* Changing Screen with segues.app */,
+				67FDA9311E110F5700E7E4DB /* Changing Screen with seguesTests.xctest */,
+				67FDA93C1E110F5700E7E4DB /* Changing Screen with seguesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FDA91C1E110F5700E7E4DB /* Changing Screen with segues */ = {
+			isa = PBXGroup;
+			children = (
+				67FDA91D1E110F5700E7E4DB /* AppDelegate.swift */,
+				67FDA91F1E110F5700E7E4DB /* ViewController.swift */,
+				67FDA9211E110F5700E7E4DB /* Main.storyboard */,
+				67FDA9271E110F5700E7E4DB /* Assets.xcassets */,
+				67FDA9291E110F5700E7E4DB /* LaunchScreen.storyboard */,
+				67FDA92C1E110F5700E7E4DB /* Info.plist */,
+				67FDA9241E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodeld */,
+			);
+			path = "Changing Screen with segues";
+			sourceTree = "<group>";
+		};
+		67FDA9341E110F5700E7E4DB /* Changing Screen with seguesTests */ = {
+			isa = PBXGroup;
+			children = (
+				67FDA9351E110F5700E7E4DB /* Changing_Screen_with_seguesTests.swift */,
+				67FDA9371E110F5700E7E4DB /* Info.plist */,
+			);
+			path = "Changing Screen with seguesTests";
+			sourceTree = "<group>";
+		};
+		67FDA93F1E110F5700E7E4DB /* Changing Screen with seguesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67FDA9401E110F5700E7E4DB /* Changing_Screen_with_seguesUITests.swift */,
+				67FDA9421E110F5700E7E4DB /* Info.plist */,
+			);
+			path = "Changing Screen with seguesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FDA9191E110F5600E7E4DB /* Changing Screen with segues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FDA9451E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with segues" */;
+			buildPhases = (
+				67FDA9161E110F5600E7E4DB /* Sources */,
+				67FDA9171E110F5600E7E4DB /* Frameworks */,
+				67FDA9181E110F5600E7E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Changing Screen with segues";
+			productName = "Changing Screen with segues";
+			productReference = 67FDA91A1E110F5700E7E4DB /* Changing Screen with segues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67FDA9301E110F5700E7E4DB /* Changing Screen with seguesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FDA9481E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with seguesTests" */;
+			buildPhases = (
+				67FDA92D1E110F5700E7E4DB /* Sources */,
+				67FDA92E1E110F5700E7E4DB /* Frameworks */,
+				67FDA92F1E110F5700E7E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FDA9331E110F5700E7E4DB /* PBXTargetDependency */,
+			);
+			name = "Changing Screen with seguesTests";
+			productName = "Changing Screen with seguesTests";
+			productReference = 67FDA9311E110F5700E7E4DB /* Changing Screen with seguesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67FDA93B1E110F5700E7E4DB /* Changing Screen with seguesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FDA94B1E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with seguesUITests" */;
+			buildPhases = (
+				67FDA9381E110F5700E7E4DB /* Sources */,
+				67FDA9391E110F5700E7E4DB /* Frameworks */,
+				67FDA93A1E110F5700E7E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FDA93E1E110F5700E7E4DB /* PBXTargetDependency */,
+			);
+			name = "Changing Screen with seguesUITests";
+			productName = "Changing Screen with seguesUITests";
+			productReference = 67FDA93C1E110F5700E7E4DB /* Changing Screen with seguesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FDA9121E110F5600E7E4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = NguyenHung;
+				TargetAttributes = {
+					67FDA9191E110F5600E7E4DB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					67FDA9301E110F5700E7E4DB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67FDA9191E110F5600E7E4DB;
+					};
+					67FDA93B1E110F5700E7E4DB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67FDA9191E110F5600E7E4DB;
+					};
+				};
+			};
+			buildConfigurationList = 67FDA9151E110F5600E7E4DB /* Build configuration list for PBXProject "Changing Screen with segues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FDA9111E110F5600E7E4DB;
+			productRefGroup = 67FDA91B1E110F5700E7E4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FDA9191E110F5600E7E4DB /* Changing Screen with segues */,
+				67FDA9301E110F5700E7E4DB /* Changing Screen with seguesTests */,
+				67FDA93B1E110F5700E7E4DB /* Changing Screen with seguesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FDA9181E110F5600E7E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FDA92B1E110F5700E7E4DB /* LaunchScreen.storyboard in Resources */,
+				67FDA9281E110F5700E7E4DB /* Assets.xcassets in Resources */,
+				67FDA9231E110F5700E7E4DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA92F1E110F5700E7E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA93A1E110F5700E7E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FDA9161E110F5600E7E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FDA9201E110F5700E7E4DB /* ViewController.swift in Sources */,
+				67FDA9261E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodeld in Sources */,
+				67FDA91E1E110F5700E7E4DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA92D1E110F5700E7E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FDA9361E110F5700E7E4DB /* Changing_Screen_with_seguesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FDA9381E110F5700E7E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FDA9411E110F5700E7E4DB /* Changing_Screen_with_seguesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67FDA9331E110F5700E7E4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FDA9191E110F5600E7E4DB /* Changing Screen with segues */;
+			targetProxy = 67FDA9321E110F5700E7E4DB /* PBXContainerItemProxy */;
+		};
+		67FDA93E1E110F5700E7E4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FDA9191E110F5600E7E4DB /* Changing Screen with segues */;
+			targetProxy = 67FDA93D1E110F5700E7E4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67FDA9211E110F5700E7E4DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FDA9221E110F5700E7E4DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67FDA9291E110F5700E7E4DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67FDA92A1E110F5700E7E4DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67FDA9431E110F5700E7E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67FDA9441E110F5700E7E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67FDA9461E110F5700E7E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Changing Screen with segues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-segues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67FDA9471E110F5700E7E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Changing Screen with segues/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-segues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		67FDA9491E110F5700E7E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Changing Screen with seguesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-seguesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Changing Screen with segues.app/Changing Screen with segues";
+			};
+			name = Debug;
+		};
+		67FDA94A1E110F5700E7E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Changing Screen with seguesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-seguesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Changing Screen with segues.app/Changing Screen with segues";
+			};
+			name = Release;
+		};
+		67FDA94C1E110F5700E7E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Changing Screen with seguesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-seguesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Changing Screen with segues";
+			};
+			name = Debug;
+		};
+		67FDA94D1E110F5700E7E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Changing Screen with seguesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Changing-Screen-with-seguesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Changing Screen with segues";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FDA9151E110F5600E7E4DB /* Build configuration list for PBXProject "Changing Screen with segues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FDA9431E110F5700E7E4DB /* Debug */,
+				67FDA9441E110F5700E7E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FDA9451E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with segues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FDA9461E110F5700E7E4DB /* Debug */,
+				67FDA9471E110F5700E7E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67FDA9481E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with seguesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FDA9491E110F5700E7E4DB /* Debug */,
+				67FDA94A1E110F5700E7E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67FDA94B1E110F5700E7E4DB /* Build configuration list for PBXNativeTarget "Changing Screen with seguesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FDA94C1E110F5700E7E4DB /* Debug */,
+				67FDA94D1E110F5700E7E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67FDA9241E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67FDA9251E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodel */,
+			);
+			currentVersion = 67FDA9251E110F5700E7E4DB /* Changing_Screen_with_segues.xcdatamodel */;
+			path = Changing_Screen_with_segues.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67FDA9121E110F5600E7E4DB /* Project object */;
+}
